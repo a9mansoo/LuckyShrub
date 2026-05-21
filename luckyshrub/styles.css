@@ -51,20 +51,27 @@ a:visited{
     color: darkblue;
 }
 
-footer{
+.footer{
     display: flex;
     margin-top: 2rem;
     background-color: #bfbfbf;
+    border-style: solid  none solid none;
+    border-color: rgba(0, 0, 0, 0.5);
 }
 
 .footer-logo{
-    width: 3rem;
+    flex: 2;
 }
 
-footer div{
+.footer-info{
     flex: 1;
-    border-style: solid  none solid none;
-    border-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.footer-img {
+    width: 3rem;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
 }
 
 section{
